@@ -2,8 +2,6 @@
 
 This is a very simple indicator so you can always know the price of a Bitcoin in the Bitstamp exchange. It refreshes every 3 seconds with the latest price. If there is any error with the HTTP request you will see a message warning you about the error and also the last known price (before the error ocurred).
 
-![Screenshot](https://postimg.cc/0bsMpk8Q)
-
 ## Build
 
 Just run `bash makedeb` to generate the `deb` package. You will have to install the `cmake` package and its dependencies in case you don't have any build tools available. If you don't want to install this indicator in your system you may just as well clone this repository or download it as a zip file and just run `python3 indicator-bitcoin` or `./indicator-bitcoin`.
