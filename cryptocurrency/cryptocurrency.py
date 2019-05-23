@@ -52,7 +52,7 @@ class CryptoCurrency():
         json_response = None
 
         try:
-            response = requests.get(self.url.format(self.crypto, self.currency), timeout=5)
+            response = requests.get(self.url.format(self.crypto, self.currency), timeout=3)
 
             if response.status_code != 200:
                 raise Exception("Request failed with a {} status code".format(response.status_code))
